@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00020000" />
+12-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:3-52
+12-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:3-65
+14-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:20-62
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:3-77
+15-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:20-74
+16
+17    <uses-feature
+17-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:3-88
+18        android:name="android.hardware.touchscreen"
+18-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:17-60
+19        android:required="false" />
+19-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:61-85
+20    <uses-feature
+20-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-99
+21        android:name="android.hardware.touchscreen.multitouch"
+21-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-71
+22        android:required="false" />
+22-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:72-96
+23    <uses-feature
+23-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-108
+24        android:name="android.hardware.touchscreen.multitouch.distinct"
+24-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-80
+25        android:required="false" />
+25-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:81-105
+26
+27    <application
+27-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-20:17
+28        android:extractNativeLibs="true"
+28-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+29        android:isGame="true" >
+29-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:49-70
+30        <activity
+30-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-14:16
+31            android:name="com.unity3d.player.UnityPlayerActivity"
+31-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+32            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+32-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:188-369
+33            android:hardwareAccelerated="false"
+33-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:404-439
+34            android:launchMode="singleTask"
+34-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:156-187
+35            android:resizeableActivity="true"
+35-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:370-403
+36            android:screenOrientation="reverseLandscape"
+36-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-155
+37            android:theme="@style/UnityThemeSelector" >
+37-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
+38            <intent-filter>
+38-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-9:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+39-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+41-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+42                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+42-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:9-78
+42-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:8:19-75
+43            </intent-filter>
+44
+45            <meta-data
+45-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-82
+46                android:name="unityplayer.UnityActivity"
+46-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-58
+47                android:value="true" />
+47-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:59-79
+48            <meta-data
+48-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:7-130
+49                android:name="WindowManagerPreference:FreeformWindowSize"
+49-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:18-75
+50                android:value="@string/FreeformWindowSize_maximize" />
+50-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:11:76-127
+51            <meta-data
+51-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:7-145
+52                android:name="WindowManagerPreference:FreeformWindowOrientation"
+52-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:18-82
+53                android:value="@string/FreeformWindowOrientation_landscape" />
+53-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:83-142
+54            <meta-data
+54-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:7-78
+55                android:name="android.notch_support"
+55-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:18-54
+56                android:value="true" />
+56-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:55-75
+57        </activity>
+58
+59        <meta-data
+59-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-69
+60            android:name="unity.splash-mode"
+60-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-48
+61            android:value="0" />
+61-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:49-66
+62        <meta-data
+62-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-74
+63            android:name="unity.splash-enable"
+63-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-50
+64            android:value="True" />
+64-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:51-71
+65        <meta-data
+65-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-78
+66            android:name="unity.launch-fullscreen"
+66-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-54
+67            android:value="True" />
+67-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:55-75
+68        <meta-data
+68-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-83
+69            android:name="unity.allow-resizable-window"
+69-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-59
+70            android:value="True" />
+70-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:60-80
+71        <meta-data
+71-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:5-81
+72            android:name="notch.config"
+72-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:16-43
+73            android:value="portrait|landscape" />
+73-->/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:44-78
+74    </application>
+75
+76</manifest>

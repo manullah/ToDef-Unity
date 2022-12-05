@@ -1,0 +1,4 @@
+#Tue Nov 29 09:58:11 WIB 2022
+base.0=/Users/penggunaimanullah/Documents/Projects/playground/unity/Tower Defense Unity Project V2/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
